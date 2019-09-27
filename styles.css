@@ -26,14 +26,17 @@ body{
     width: 150px;
     height: 150px;
     background-color: aquamarine;
+    padding: 30px;
 }
 #cuadradito2{
     width: 150px;
     height: 150px;
     background-color: aquamarine;
+    padding: 60px;
 }
 #cuadradito3{
     width: 150px;
     height: 150px;
     background-color: aquamarine;
+    padding: 90px;
 }
