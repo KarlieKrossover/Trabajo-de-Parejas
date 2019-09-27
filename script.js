@@ -15,7 +15,9 @@ window.addEventListener('scroll', function(){
     var windowHeight = window.innerHeight;
     
     if(posVideo + alturaVideo < currentScroll + windowHeight && posVideo > currentScroll){
-        console.log("video a la vista")
+        video.classList.add("play");
+       }else{
+           video.classList.remove("play");
        }
     
     //console.log("posVideo", posVideo);
