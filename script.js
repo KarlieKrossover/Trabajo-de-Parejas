@@ -3,10 +3,14 @@
 //window = la ventana del navegador. Variable global
 //eventListener: quiero que hagas algo cuando pase otra cosa
 //target: un elemento que hemos creado
-//ofsettop= los pixeles que hay desde el principio del documento hasta algo
-//ofsetparent = el padre del video
+//offsettop= los pixeles que hay desde el principio del documento hasta algo
+//offsetparent = el padre del video
+//offset = desfazado
 
 window.addEventListener('scroll', function(){
     var video = document.getElementById("rectangulo");
     var posVideo = video.offsetTop;
+    var currentScroll = window.pageYOffset;
+    
+    console.log("posVideo", posVideo);
 });
