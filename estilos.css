@@ -1,0 +1,21 @@
+body{ 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+#cuadro1{ 
+    height: 2000px;
+    background-color: lightcoral;}
+#cuadro2{
+    background-color: lightblue;}
+#rectangulo{
+    width: 640px;
+    height: 390px;
+    background-color: lightyellow;
+    margin: 20px;
+}
+#cuadro3{
+    height: 1200px;
+    background-color:lightseagreen;
+}
