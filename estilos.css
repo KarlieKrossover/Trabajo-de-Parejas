@@ -1,0 +1,34 @@
+body{ 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+#cuadro1{ 
+    height: 2000px;
+    background-color: lightcoral;}
+#cuadro2{
+    background-color: lightblue;}
+.video{
+    justify-content: center;
+    margin: 20px;
+    width: 640px;
+    height: 390px;
+    background-color: lightyellow;
+}
+.video.play{
+    background-color: greenyellow;
+}
+
+.footer{
+background-color: lightseagreen;
+height: 1200px;
+padding: 300px 600px;
+display: flex;
+justify-content: space-between;
+}
+.cuadrado{
+    width: 150px;
+    height: 150px;
+    background-color:lightsalmon;
+}
