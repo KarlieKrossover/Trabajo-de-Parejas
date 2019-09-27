@@ -10,7 +10,15 @@
 window.addEventListener('scroll', function(){
     var video = document.getElementById("rectangulo");
     var posVideo = video.offsetTop;
+    var alturaVideo = video.offsetHeight;
     var currentScroll = window.pageYOffset;
+    var windowHeight = window.innerHeight;
     
-    console.log("posVideo", posVideo);
+    if(posVideo + alturaVideo < currentScroll + windowHeight && posVideo > currentScroll){
+        console.log("video a la vista")
+       }
+    
+    //console.log("posVideo", posVideo);
+    //console.log("currentScroll", currentScroll);
+    //console.log("windowHeight", windowHeight);
 });
