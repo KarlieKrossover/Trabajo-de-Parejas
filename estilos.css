@@ -1,5 +1,4 @@
 body{ 
-    display: grid;
     justify-content: center;
     align-items: center;
     background: #ffffff;
@@ -8,17 +7,31 @@ body{
     height: 2000px;
     background-color: lightcoral;}
 #cuadro2{
-    background-color: lightblue;}
+    background-color: lightblue;
+    display: flex;
+}
 .video{
     width: 640px;
     height: 390px;
     background-color: lightyellow;
     margin: 20px;
+    align-items: center;
 }
-.play{
+.video.play{
     background-color: aqua;
 }
 #cuadro3{
     height: 1200px;
     background-color:lightseagreen;
+    justify-content: center;
+    padding: 100px;
+    display: flex;
+
+}
+.cuadrado{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: lightcyan;
+    align-content: center;
 }
