@@ -19,7 +19,7 @@ var player;
         //event.target.playVideo();
       }
 function onPlayerStateChange(){
-   
+    
 }
 
 //hay una función para conocer cuantos pixeles se ha scrolleado. Siempre se inicia desde el pixel 0.
@@ -38,7 +38,7 @@ window.addEventListener('scroll', function(){
     var alturaVideo = video.offsetHeight;
     var currentScroll = window.pageYOffset;
     var windowHeight = window.innerHeight;
-   
+    
     if(posVideo + alturaVideo < currentScroll + windowHeight && posVideo > currentScroll){
         if(!isPlaying){
             player.playvideo();
@@ -51,10 +51,10 @@ window.addEventListener('scroll', function(){
            }
 
        }
-   
+    
     //console.log("posVideo", posVideo);
     //console.log("currentScroll", currentScroll);
     //console.log("windowHeight", windowHeight);
-   
+    
     //create element: crea un elemento con el tag que querem
 });

@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
   <link rel="stylesheet" href="./estilos.css">
-  <script src="./script.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Ejercicio de Scroll</title>
     <body>
         <div id="cuadro1">
@@ -16,17 +16,24 @@
             </header>
         </div>
         <div id="cuadro2">
-            <div class="video">
+            <div class="video" id="video">
             </div>
         </div>
         <div id="cuadro3">
-            <section id="cuadradito1">
-            </section>
-            <section id="cuadradito2">
-            </section>
-            <section id="cuadradito3">
-            </section>
+        <footer class="footer">
+          <div class="cuadrado" data-aos="fade-in"></div>
+          <div class="cuadrado" data-aos="fade-right"></div>
+          <div class="cuadrado" data-aos="fade-up-right"></div>
+        </footer>
         </div>
+        <script src="./script.js"></script>
+        <script src="./youtube.js"></script>
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        duration: 800
+    });
+  </script>
     </body>
 </head>
 </html>
