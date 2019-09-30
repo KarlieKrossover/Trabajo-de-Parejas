@@ -23,4 +23,5 @@ window.addEventListener('scroll', function(){
     //console.log("posVideo", posVideo);
     //console.log("currentScroll", currentScroll);
     //console.log("windowHeight", windowHeight);
+    //github: cuando master tiene codigo que quieres ver en una rama, tienes que ir a branch (menu superior) y de ahí update from master
 });

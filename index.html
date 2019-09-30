@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
   <link rel="stylesheet" href="./estilos.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="./script.js"></script>
   <title>Ejercicio de Scroll</title>
     <body>
@@ -21,11 +22,17 @@
         </div>
         <div id="cuadro3">
         <footer class="footer">
-          <div class="cuadrado"></div>
-          <div class="cuadrado"></div>
-          <div class="cuadrado"></div>
+          <div class="cuadrado" data-aos="fade-in"></div>
+          <div class="cuadrado" data-aos="fade-right"></div>
+          <div class="cuadrado" data-aos="fade-up-right"></div>
         </footer>
         </div>
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        duration: 800
+    });
+  </script>
     </body>
 </head>
 </html>
