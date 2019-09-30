@@ -25,9 +25,10 @@ background-color: lightseagreen;
 height: 1200px;
 padding: 300px 600px;
 display: flex;
-justify-content: space-between;
+
 }
 .cuadrado{
+    margin: 20px;
     width: 150px;
     height: 150px;
     background-color:lightsalmon;
