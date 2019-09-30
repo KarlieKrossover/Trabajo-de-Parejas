@@ -8,7 +8,7 @@
 //offset = desfazado
 
 window.addEventListener('scroll', function(){
-    var video = document.getElementById("rectangulo");
+    var video = document.getElementById("video");
     var posVideo = video.offsetTop;
     var alturaVideo = video.offsetHeight;
     var currentScroll = window.pageYOffset;

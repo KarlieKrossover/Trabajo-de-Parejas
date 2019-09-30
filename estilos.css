@@ -9,11 +9,14 @@ body{
     background-color: lightcoral;}
 #cuadro2{
     background-color: lightblue;}
-#rectangulo{
+.video{
     width: 640px;
     height: 390px;
     background-color: lightyellow;
     margin: 20px;
+}
+.play{
+    background-color: aqua;
 }
 #cuadro3{
     height: 1200px;
