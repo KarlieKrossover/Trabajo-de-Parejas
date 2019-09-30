@@ -15,10 +15,24 @@ body{
     background-color: lightyellow;
     margin: 20px;
 }
-.play{
+.video.play{
     background-color: aqua;
 }
 #cuadro3{
     height: 1200px;
     background-color:lightseagreen;
+}
+.footer{
+background-color: lightseagreen;
+height: 1200px;
+padding: 300px 600px;
+display: flex;
+
+}
+.cuadrado{
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    margin: 20px;
 }
